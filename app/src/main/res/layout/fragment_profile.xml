@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layoutDirection="ltr"
+    >
+
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="300dp">
+          <ImageView
+              android:id="@+id/owner_profile_image"
+              android:layout_width="match_parent"
+              android:layout_height="300dp"
+               app:srcCompat="@drawable/ic_baseline_account_circle_24" />
+
+          <ImageView
+              android:id="@+id/owner_profile_edit_image"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Change Profile Picture"
+              android:layout_alignParentBottom="true"
+              android:padding="10dp"
+              android:src="@drawable/ic_baseline_photo_camera_24"
+              android:background="@color/colorPrimary"
+              />
+     </RelativeLayout>
+
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:layout_marginTop="30dp"
+         android:layout_marginBottom="10dp"
+         android:layout_marginStart="20dp"
+         android:layout_marginEnd="20dp"
+         android:padding="8dp"
+         android:background="@drawable/btn_background"
+         android:backgroundTint="@android:color/white"
+
+         >
+          <EditText
+              android:id="@+id/owner_profile_name"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Owner Name"
+              android:layout_weight="1"
+              android:enabled="false"
+              android:textSize="18sp"
+               android:layout_marginEnd="15dp"
+              android:layout_marginStart="20dp"
+              android:background="@android:color/white"
+              android:textColor="@android:color/primary_text_light"
+              />
+
+          <ImageView
+              android:id="@+id/owner_profile_edit_name"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/ic_mask_group_15"
+              android:layout_gravity="center"
+              android:layout_marginEnd="20dp"/>
+     </LinearLayout>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:layout_marginBottom="10dp"
+         android:layout_marginStart="20dp"
+         android:layout_marginEnd="20dp"
+         android:padding="8dp"
+         android:background="@drawable/btn_background"
+         android:backgroundTint="@android:color/white"
+          >
+          <EditText
+              android:id="@+id/owner_profile_store_name"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Store Name"
+              android:layout_weight="1"
+              android:enabled="false"
+              android:textSize="18sp"
+
+              android:layout_marginEnd="15dp"
+              android:layout_marginStart="20dp"
+              android:background="@android:color/white"
+              android:textColor="@android:color/primary_text_light"
+              />
+
+          <ImageView
+              android:id="@+id/owner_profile_edit_store_name"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/ic_mask_group_15"
+              android:layout_gravity="center_vertical"
+              android:layout_marginEnd="20dp"/>
+     </LinearLayout>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:layout_marginBottom="10dp"
+         android:layout_marginStart="20dp"
+         android:layout_marginEnd="20dp"
+         android:padding="8dp"
+         android:background="@drawable/btn_background"
+         android:backgroundTint="@android:color/white"
+
+         >
+          <EditText
+              android:id="@+id/owner_profile_email"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Owner Name"
+              android:layout_weight="1"
+              android:enabled="false"
+              android:textSize="18sp"
+              android:layout_marginEnd="15dp"
+              android:layout_marginStart="20dp"
+              android:background="@android:color/white"
+              android:textColor="@android:color/primary_text_light"
+              />
+
+          <ImageView
+              android:id="@+id/owner_profile_edit_email"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/ic_mask_group_15"
+              android:layout_gravity="center"
+              android:layout_marginEnd="20dp"/>
+     </LinearLayout>
+
+
+     <TextView
+         android:id="@+id/owner_profile_phone"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Customer Phone"
+         android:textSize="18sp"
+         android:layout_marginEnd="20dp"
+         android:layout_marginStart="20dp"
+         android:padding="8dp"
+         android:paddingStart="28dp"
+         android:background="@drawable/btn_background"
+         android:backgroundTint="@android:color/white"/>
+
+     <Button
+         android:id="@+id/owner_profile_update_btn"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:background="@drawable/btn_background"
+         android:textColor="#ffffff"
+         android:textStyle="bold"
+         android:textSize="18sp"
+         android:textAllCaps="false"
+         android:text="@string/update"
+         android:drawableStart="@drawable/ic_baseline_update_24"
+         android:drawablePadding="20dp"
+         android:paddingStart="30dp"
+         android:paddingEnd="30dp"
+         android:layout_marginTop="40dp"
+         android:layout_marginBottom="10dp"
+         android:layout_gravity="center_horizontal"/>
+
+     <Button
+         android:id="@+id/owner_profile_logout_btn"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:background="@drawable/btn_background"
+         android:textColor="#ffffff"
+         android:textStyle="bold"
+         android:textSize="18sp"
+         android:textAllCaps="false"
+         android:text="@string/logout"
+         android:drawableStart="@drawable/ic_baseline_exit_to_app_24"
+         android:drawablePadding="20dp"
+         android:paddingStart="30dp"
+         android:paddingEnd="30dp"
+         android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

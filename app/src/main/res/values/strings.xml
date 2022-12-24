@@ -1,0 +1,94 @@
+<resources>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_seller_home">MainActivity</string>
+
+    <string name="app_name">Online Shop</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_map_new">Map</string>
+
+
+    <string name="login_email">Email or Phone number</string>
+    <string name="login_password">Password</string>
+    <string name="login_sign_up_question">You Don\'t Have An Account?</string>
+    <string name="login_sign_up">Sign Up</string>
+    <string name="login">LOG IN</string>
+    <string name="login_title">please fill the required fields to access the app!, hope you a nice experience</string>
+    <string name="verification_title">Verification code sent to your number, please fill it in the space below</string>
+    <string name="vreification">Verification</string>
+    <string name="verification">VERIFICATION</string>
+    <string name="verification_resend_code">Resend code</string>
+    <string name="verification_resend_code_timer">00:55</string>
+    <string name="sign_up_name">Full Name</string>
+    <string name="sign_up_password">Password</string>
+    <string name="sign_up_login_question">You Have An Account?</string>
+    <string name="sign_up_login">Login</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="toast_login_add_name">Enter Email or Phone Number!</string>
+    <string name="toast_login_add_password">Enter password!</string>
+    <string name="loading_login">Login</string>
+    <string name="loading_login_message">Please wait , we are validating your data </string>
+    <string name="toast_login_wrong_password">Wrong password!</string>
+    <string name="toast_login_not_found">This account not found!</string>
+    <string name="toast_login_success">Welcome, Login successfully!</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_add_product">Add Product</string>
+    <string name="title_orders">Orders</string>
+    <string name="title_profile">Profile</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="add_product_name">Product Name</string>
+    <string name="add_product_description">Product Description</string>
+    <string name="add_product_price">Product Price</string>
+    <string name="add_product_code">Product Code</string>
+    <string name="add_product">Add Product</string>
+    <string name="add_product_title">Add new product</string>
+    <string name="toast_add_product_image">Please add product image</string>
+    <string name="toast_add_product_name">Please add product name!</string>
+    <string name="toast_add_product_code">Please add product code!</string>
+    <string name="toast_add_product_description">Please add product description!</string>
+    <string name="toast_add_product_price">Please add product price!</string>
+    <string name="toast_add_product_extra_price">Please add extra price!</string>
+    <string name="loading_add_product_title">Add New Item</string>
+    <string name="loading_add_model_message">Please wait while adding the new item</string>
+    <string name="loading_update_product_message">Please wait while saving changes...</string>
+    <string name="toast_add_product_successfully">The product added successfully!</string>
+    <string name="toast_update_product_successfully">The product updated successfully!</string>
+    <string name="toast_add_product_fail">Sorry, try again!</string>
+    <string name="loading_add_product_message">Please wait while adding the new item...</string>
+    <string name="loading_update_product_title">Update Product</string>
+    <string name="sign_up_re_password">Re-Password</string>
+    <string name="sign_up_store_name">Store\'s Name</string>
+
+    <string name="save_changes">Save Changes</string>
+    <string name="delete">Delete Product</string>
+
+    <string name="ok">Ok</string>
+    <string name="alert_delete_title">Sure you want to delete?</string>
+    <string name="toast_delete">deleted successfully!</string>
+    <string name="order_name">Name : </string>
+    <string name="order_phone">Phone : </string>
+    <string name="order_at">Order at : </string>
+    <string name="order_address">Shipping address : </string>
+    <string name="confirm">Confirm</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="show_orders">Show Order</string>
+    <string name="title_activity_owner_home">MainActivity</string>
+    <string name="logout">Logout</string>
+    <string name="title_activity_customer_home">MainActivity</string>
+    <string name="title_shopping_cart">Shopping Cart</string>
+    <string name="update">Update</string>
+
+</resources>

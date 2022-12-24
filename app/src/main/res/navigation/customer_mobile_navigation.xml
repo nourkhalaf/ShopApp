@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_customer_home">
+
+    <fragment
+        android:id="@+id/navigation_customer_home"
+        android:name="com.example.graduationonlineshop.ui.customerHome.CustomerHomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_customer_home" />
+
+    <fragment
+        android:id="@+id/navigation_shopping_cart"
+        android:name="com.example.graduationonlineshop.ui.shoppingCart.ShoppingCartFragment"
+        android:label="@string/title_shopping_cart"
+        tools:layout="@layout/fragment_shopping_cart" />
+
+    <fragment
+        android:id="@+id/navigation_customer_profile"
+        android:name="com.example.graduationonlineshop.ui.customerProfile.CustomerProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_customer_profile" />
+</navigation>
